@@ -1,0 +1,5 @@
+Carga intrínseca
+
+acoplamento contextual: 1 ponto
+complexidade ciclomática: 1 ponto
+1 branch: 1 ponto
