@@ -37,6 +37,10 @@ public class Autor {
 	@Column(nullable = false)
 	private String codigo = UUID.randomUUID().toString();
 
+	@Deprecated
+	public Autor() {
+	}
+
 	public Autor(String nome, String email, String descricao) {
 		this.nome = nome;
 		this.email = email;
